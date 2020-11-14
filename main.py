@@ -59,7 +59,7 @@ class Block:
         for event in events:
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if mousePos[0] >= self.x - self.WIDTH // 2 and mousePos[0] <= self.x + self.WIDTH // 2 and mousePos[1] >= self.y - self.height // 2 and mousePos[1] <= self.y + self.height // 2:
-                    pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                    pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                     #But, I can't give you my real path, so I just put it like that.
                     pygame.mixer.music.set_volume(0.5)
                     self.color = self.clickedColor
@@ -68,7 +68,7 @@ class Block:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_a or event.key == pygame.K_1 or event.key == pygame.K_KP1:
                     if self.note == "C":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -76,7 +76,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_s or event.key == pygame.K_2 or event.key == pygame.K_KP2:
                     if self.note == "D":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -84,7 +84,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_d or event.key == pygame.K_3 or event.key == pygame.K_KP3:
                     if self.note == "E":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -92,7 +92,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_f or event.key == pygame.K_4 or event.key == pygame.K_KP4:
                     if self.note == "F":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -100,7 +100,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_g or event.key == pygame.K_5 or event.key == pygame.K_KP5:
                     if self.note == "G":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -108,7 +108,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_h or event.key == pygame.K_6 or event.key == pygame.K_KP6:
                     if self.note == "A":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -116,7 +116,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_j or event.key == pygame.K_7 or event.key == pygame.K_KP7:
                     if self.note == "B":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
@@ -124,7 +124,7 @@ class Block:
                         pygame.mixer.music.play()
                 if event.key == pygame.K_k or event.key == pygame.K_8 or event.key == pygame.K_KP8:
                     if self.note == "C\'":
-                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.mp3 doesn't work, so I have to hard code it.
+                        pygame.mixer.music.load(".\\mp3-files\\" + (self.note) + ".mp3")#For some reason, python's .\foldername\file.filetype doesn't work, so I have to hard code it.
                         #But, I can't give you my real path, so I just put it like that.
                         pygame.mixer.music.set_volume(0.5)
                         self.color = self.clickedColor
